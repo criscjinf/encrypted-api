@@ -12,5 +12,6 @@ import { EncryptConnectionService } from './service';
       useClass: EncryptConnectionService,
     },
   ],
+  exports: [IEncryptConnectionService],
 })
 export class EncryptConnectionModule {}
